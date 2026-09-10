@@ -1,0 +1,23 @@
+name: mercury_venus
+description: "Mercury & Venus Astronomy — a combined, accessible Flutter application for calculating positional, phase, distance, and elongation data for the planets Mercury and Venus. Merges the MERVE and MVENC astronomy programs by Eric Burgess F.R.A.S."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
